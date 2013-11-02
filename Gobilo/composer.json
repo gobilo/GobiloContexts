@@ -1,0 +1,27 @@
+{
+    "name":         "gobilo/gobilo-contexts",
+    "description":  "Gobilo contexts for Behat",
+    "keywords":     ["BDD", "Behat", "Symfony2", "Context"],
+    "homepage":     "http://behat.org/",
+    "type":         "library",
+    "license":      "MIT",
+    "authors":      [
+        {
+            "name":      "Stefan Goebel",
+            "email":     "goebel@gobilo.de",
+            "homepage":  "http://www.gobilo.de"
+        }
+    ],
+
+    "require": {
+        "php":          ">=5.3.1",
+        "behat/behat":  ">=2.2.2",
+        "drupal/drupal-extension": ">=0.1.3-p1"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Gobilo\\GobiloContexts": ""
+        }
+    }
+}
