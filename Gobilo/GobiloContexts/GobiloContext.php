@@ -22,6 +22,8 @@ use Behat\Behat\Context\Step\When;
 use Behat\Behat\Context\Step\Then;
 use Behat\Behat\Context\TranslatedContextInterface;
 
+use Behat\Behat\Event\StepEvent;
+
 use Behat\Gherkin\Node\PyStringNode;
 use Behat\Gherkin\Node\TableNode;
 use Behat\Mink\Element\NodeElement;
